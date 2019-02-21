@@ -1,0 +1,7 @@
+C:\Users\achilles\Desktop\HRM\DAO\bin\Release\DAO.dll
+C:\Users\achilles\Desktop\HRM\DAO\bin\Release\DAO.pdb
+C:\Users\achilles\Desktop\HRM\DAO\bin\Release\DTO.dll
+C:\Users\achilles\Desktop\HRM\DAO\bin\Release\DTO.pdb
+C:\Users\achilles\Desktop\HRM\DAO\obj\Release\DAO.csprojResolveAssemblyReference.cache
+C:\Users\achilles\Desktop\HRM\DAO\obj\Release\DAO.dll
+C:\Users\achilles\Desktop\HRM\DAO\obj\Release\DAO.pdb

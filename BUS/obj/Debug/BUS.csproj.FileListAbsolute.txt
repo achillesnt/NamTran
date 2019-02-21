@@ -1,0 +1,45 @@
+C:\Users\Administrator\documents\visual studio 2015\Projects\HRM\BUS\bin\Debug\BUS.dll
+C:\Users\Administrator\documents\visual studio 2015\Projects\HRM\BUS\bin\Debug\BUS.pdb
+C:\Users\Administrator\documents\visual studio 2015\Projects\HRM\BUS\bin\Debug\DAO.dll
+C:\Users\Administrator\documents\visual studio 2015\Projects\HRM\BUS\bin\Debug\DTO.dll
+C:\Users\Administrator\documents\visual studio 2015\Projects\HRM\BUS\bin\Debug\DAO.pdb
+C:\Users\Administrator\documents\visual studio 2015\Projects\HRM\BUS\bin\Debug\DTO.pdb
+C:\Users\Administrator\documents\visual studio 2015\Projects\HRM\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2015\Projects\HRM\BUS\obj\Debug\BUS.dll
+C:\Users\Administrator\documents\visual studio 2015\Projects\HRM\BUS\obj\Debug\BUS.pdb
+C:\Users\Administrator\Documents\HRM\BUS\bin\Debug\BUS.dll
+C:\Users\Administrator\Documents\HRM\BUS\bin\Debug\BUS.pdb
+C:\Users\Administrator\Documents\HRM\BUS\bin\Debug\DAO.dll
+C:\Users\Administrator\Documents\HRM\BUS\bin\Debug\DTO.dll
+C:\Users\Administrator\Documents\HRM\BUS\bin\Debug\DAO.pdb
+C:\Users\Administrator\Documents\HRM\BUS\bin\Debug\DTO.pdb
+C:\Users\Administrator\Documents\HRM\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\HRM\BUS\obj\Debug\BUS.dll
+C:\Users\Administrator\Documents\HRM\BUS\obj\Debug\BUS.pdb
+C:\Users\achilles\Downloads\HRM\BUS\bin\Debug\BUS.dll
+C:\Users\achilles\Downloads\HRM\BUS\bin\Debug\BUS.pdb
+C:\Users\achilles\Downloads\HRM\BUS\bin\Debug\DAO.dll
+C:\Users\achilles\Downloads\HRM\BUS\bin\Debug\DTO.dll
+C:\Users\achilles\Downloads\HRM\BUS\bin\Debug\DAO.pdb
+C:\Users\achilles\Downloads\HRM\BUS\bin\Debug\DTO.pdb
+C:\Users\achilles\Downloads\HRM\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\achilles\Downloads\HRM\BUS\obj\Debug\BUS.dll
+C:\Users\achilles\Downloads\HRM\BUS\obj\Debug\BUS.pdb
+C:\Users\Administrator\Desktop\HRM\BUS\bin\Debug\BUS.dll
+C:\Users\Administrator\Desktop\HRM\BUS\bin\Debug\BUS.pdb
+C:\Users\Administrator\Desktop\HRM\BUS\bin\Debug\DAO.dll
+C:\Users\Administrator\Desktop\HRM\BUS\bin\Debug\DTO.dll
+C:\Users\Administrator\Desktop\HRM\BUS\bin\Debug\DAO.pdb
+C:\Users\Administrator\Desktop\HRM\BUS\bin\Debug\DTO.pdb
+C:\Users\Administrator\Desktop\HRM\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\HRM\BUS\obj\Debug\BUS.dll
+C:\Users\Administrator\Desktop\HRM\BUS\obj\Debug\BUS.pdb
+C:\Users\achilles\Desktop\HRM\BUS\bin\Debug\BUS.dll
+C:\Users\achilles\Desktop\HRM\BUS\bin\Debug\BUS.pdb
+C:\Users\achilles\Desktop\HRM\BUS\bin\Debug\DAO.dll
+C:\Users\achilles\Desktop\HRM\BUS\bin\Debug\DTO.dll
+C:\Users\achilles\Desktop\HRM\BUS\bin\Debug\DAO.pdb
+C:\Users\achilles\Desktop\HRM\BUS\bin\Debug\DTO.pdb
+C:\Users\achilles\Desktop\HRM\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\achilles\Desktop\HRM\BUS\obj\Debug\BUS.dll
+C:\Users\achilles\Desktop\HRM\BUS\obj\Debug\BUS.pdb

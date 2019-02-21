@@ -1,0 +1,13 @@
+C:\Users\Administrator\documents\visual studio 2015\Projects\HRM\DTO\bin\Debug\DTO.dll
+C:\Users\Administrator\documents\visual studio 2015\Projects\HRM\DTO\bin\Debug\DTO.pdb
+C:\Users\Administrator\documents\visual studio 2015\Projects\HRM\DTO\obj\Debug\DTO.dll
+C:\Users\Administrator\documents\visual studio 2015\Projects\HRM\DTO\obj\Debug\DTO.pdb
+C:\Users\Administrator\Desktop\HRM\DTO\bin\Debug\DTO.dll
+C:\Users\Administrator\Desktop\HRM\DTO\bin\Debug\DTO.pdb
+C:\Users\Administrator\Desktop\HRM\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\HRM\DTO\obj\Debug\DTO.dll
+C:\Users\Administrator\Desktop\HRM\DTO\obj\Debug\DTO.pdb
+C:\Users\achilles\Desktop\HRM\DTO\bin\Debug\DTO.dll
+C:\Users\achilles\Desktop\HRM\DTO\bin\Debug\DTO.pdb
+C:\Users\achilles\Desktop\HRM\DTO\obj\Debug\DTO.dll
+C:\Users\achilles\Desktop\HRM\DTO\obj\Debug\DTO.pdb
