@@ -18,13 +18,6 @@ C:\Users\achilles\Downloads\HRM\DAO\bin\Debug\DTO.dll
 C:\Users\achilles\Downloads\HRM\DAO\bin\Debug\DTO.pdb
 C:\Users\achilles\Downloads\HRM\DAO\obj\Debug\DAO.dll
 C:\Users\achilles\Downloads\HRM\DAO\obj\Debug\DAO.pdb
-C:\Users\Administrator\Desktop\HRM\DAO\bin\Debug\DAO.dll
-C:\Users\Administrator\Desktop\HRM\DAO\bin\Debug\DAO.pdb
-C:\Users\Administrator\Desktop\HRM\DAO\bin\Debug\DTO.dll
-C:\Users\Administrator\Desktop\HRM\DAO\bin\Debug\DTO.pdb
-C:\Users\Administrator\Desktop\HRM\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\HRM\DAO\obj\Debug\DAO.dll
-C:\Users\Administrator\Desktop\HRM\DAO\obj\Debug\DAO.pdb
 C:\Users\achilles\Desktop\HRM\DAO\bin\Debug\DAO.dll
 C:\Users\achilles\Desktop\HRM\DAO\bin\Debug\DAO.pdb
 C:\Users\achilles\Desktop\HRM\DAO\bin\Debug\DTO.dll
@@ -32,3 +25,10 @@ C:\Users\achilles\Desktop\HRM\DAO\bin\Debug\DTO.pdb
 C:\Users\achilles\Desktop\HRM\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 C:\Users\achilles\Desktop\HRM\DAO\obj\Debug\DAO.dll
 C:\Users\achilles\Desktop\HRM\DAO\obj\Debug\DAO.pdb
+C:\Users\Administrator\Desktop\HRM\DAO\bin\Debug\DAO.dll
+C:\Users\Administrator\Desktop\HRM\DAO\bin\Debug\DAO.pdb
+C:\Users\Administrator\Desktop\HRM\DAO\bin\Debug\DTO.dll
+C:\Users\Administrator\Desktop\HRM\DAO\bin\Debug\DTO.pdb
+C:\Users\Administrator\Desktop\HRM\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\HRM\DAO\obj\Debug\DAO.dll
+C:\Users\Administrator\Desktop\HRM\DAO\obj\Debug\DAO.pdb

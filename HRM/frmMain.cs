@@ -328,6 +328,20 @@ namespace HRM
             splashScreenManager1.CloseWaitForm();
         }
 
+        private void barProductList_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            splashScreenManager1.ShowWaitForm();
+            frmProductList productList = new frmProductList(ad_user_id, ad_org_id, dtProcess);
+            foreach (System.Windows.Forms.Form _mdi_child in this.MdiChildren)
+            {
+                if (productList.Name == _mdi_child.Name)
+                    _mdi_child.Close();
+            }
+            productList.MdiParent = this;
+            productList.Show();
+            splashScreenManager1.CloseWaitForm();
+        }
+
         private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
         {
             thoat();

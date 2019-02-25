@@ -364,6 +364,7 @@ namespace HRM
             this.btnProcessSave.Size = new System.Drawing.Size(75, 23);
             this.btnProcessSave.TabIndex = 7;
             this.btnProcessSave.Text = "Save";
+            this.btnProcessSave.Click += new System.EventHandler(this.btnProcessSave_Click);
             // 
             // txtDescription
             // 

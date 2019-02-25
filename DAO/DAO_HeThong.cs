@@ -534,7 +534,6 @@ namespace DAO
 
         public static bool CreateProcessAccess(string ad_process_id, string ad_role_id)
         {
-            string sKetQua = null;
             SqlConnection con = new SqlConnection(DataProvider.sChuoiKetNoi);
             SqlCommand cmd = con.CreateCommand();
             cmd.Connection.Open();
@@ -577,6 +576,18 @@ namespace DAO
         public static bool CreateRole(string name, string description)
         {
             string sChuoiTruyVan = string.Format("INSERT INTO ad_role(isactive, name, description) VALUES('{0}','{1}',N'{2}')", "Y", name, description);
+            if (DataProvider.TruyVanExecuteNonQuery(sChuoiTruyVan))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public static bool CreateProcess(string name, string description)
+        {
+            string sChuoiTruyVan = string.Format("INSERT INTO ad_process(isactive, name, description) VALUES('{0}','{1}',N'{2}')", "Y", name, description);
             if (DataProvider.TruyVanExecuteNonQuery(sChuoiTruyVan))
             {
                 return true;

@@ -58,29 +58,7 @@ namespace HRM
             //inoutLine.MdiParent = this;
             roleDetail.ShowDialog();
             //splashScreenManager1.CloseWaitForm();
-        }
-
-        private void btnRoleSave_Click(object sender, EventArgs e)
-        {
-            string v_name, v_description;
-            v_name = txtName.Text;
-            v_description = txtDescription.Text;
-            if (string.IsNullOrEmpty(v_name) || string.IsNullOrEmpty(v_description))
-            {
-                MessageBox.Show("Vui lòng điền đầy đủ các thông tin cần thiết!", "Không thành công", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            else
-            {
-                if (BUS_HeThong.CreateRole(v_name, v_description))
-                {
-                    MessageBox.Show("Tạo vai trò thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else
-                {
-                    MessageBox.Show("Tạo vai trò không thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-        }
+        }      
 
         private void btnRoleUpdate_Click(object sender, EventArgs e)
         {
@@ -153,6 +131,25 @@ namespace HRM
             else
             {
                 MessageBox.Show("Vui lòng chọn dữ liệu trước khi thực hiện!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtName.Text) || string.IsNullOrEmpty(txtDescription.Text))
+            {
+                MessageBox.Show("Vui lòng điền đầy đủ các thông tin cần thiết!", "Không thành công", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                if (BUS_HeThong.CreateRole(txtName.Text, txtDescription.Text))
+                {
+                    MessageBox.Show("Tạo vai trò thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Tạo vai trò không thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
     }

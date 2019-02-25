@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             DevExpress.XtraSplashScreen.SplashScreenManager splashScreenManager2 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::HRM.SplashScreen1), true, true, true);
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::HRM.WaitForm1), true, true, true);
@@ -71,11 +70,13 @@
             this.barQtyReport = new DevExpress.XtraBars.BarButtonItem();
             this.barHistory = new DevExpress.XtraBars.BarButtonItem();
             this.barPartname = new DevExpress.XtraBars.BarButtonItem();
+            this.barProductList = new DevExpress.XtraBars.BarButtonItem();
             this.pageHeThong = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.pageDuLieuGoc = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup6 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.pageChamCong = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.pgr_QuetThe = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.pgr_PhanCa = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -85,8 +86,8 @@
             this.pageSanXuat = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.alertControl1 = new DevExpress.XtraBars.Alerter.AlertControl(this.components);
+            this.timer1 = new System.Windows.Forms.Timer();
+            this.alertControl1 = new DevExpress.XtraBars.Alerter.AlertControl();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -140,9 +141,10 @@
             this.barAttCountReport,
             this.barQtyReport,
             this.barHistory,
-            this.barPartname});
+            this.barPartname,
+            this.barProductList});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 43;
+            this.ribbonControl1.MaxItemId = 44;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.PageHeaderItemLinks.Add(this.bar_user);
             this.ribbonControl1.PageHeaderItemLinks.Add(this.barNgay);
@@ -465,6 +467,15 @@
             this.barPartname.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("barPartname.LargeGlyph")));
             this.barPartname.Name = "barPartname";
             // 
+            // barProductList
+            // 
+            this.barProductList.Caption = "Vật tư";
+            this.barProductList.Glyph = ((System.Drawing.Image)(resources.GetObject("barProductList.Glyph")));
+            this.barProductList.Id = 43;
+            this.barProductList.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("barProductList.LargeGlyph")));
+            this.barProductList.Name = "barProductList";
+            this.barProductList.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barProductList_ItemClick);
+            // 
             // pageHeThong
             // 
             this.pageHeThong.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -486,7 +497,8 @@
             // 
             this.pageDuLieuGoc.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup1,
-            this.ribbonPageGroup5});
+            this.ribbonPageGroup5,
+            this.ribbonPageGroup6});
             this.pageDuLieuGoc.Name = "pageDuLieuGoc";
             this.pageDuLieuGoc.Text = "Dữ liệu gốc";
             // 
@@ -505,6 +517,12 @@
             this.ribbonPageGroup5.ItemLinks.Add(this.barPartname);
             this.ribbonPageGroup5.Name = "ribbonPageGroup5";
             this.ribbonPageGroup5.Text = "Sản xuất";
+            // 
+            // ribbonPageGroup6
+            // 
+            this.ribbonPageGroup6.ItemLinks.Add(this.barProductList);
+            this.ribbonPageGroup6.Name = "ribbonPageGroup6";
+            this.ribbonPageGroup6.Text = "Quản lý kho";
             // 
             // pageChamCong
             // 
@@ -668,6 +686,8 @@
         private DevExpress.XtraBars.BarButtonItem barQtyReport;
         private DevExpress.XtraBars.BarButtonItem barHistory;
         private DevExpress.XtraBars.BarButtonItem barPartname;
+        private DevExpress.XtraBars.BarButtonItem barProductList;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup6;
     }
 }
 

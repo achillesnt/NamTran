@@ -51,6 +51,7 @@
     <Compile Include="BUS_SanXuat.cs" />
     <Compile Include="BUS_TangCa.cs" />
     <Compile Include="BUS_TinhTrang.cs" />
+    <Compile Include="BUS_Warehouse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

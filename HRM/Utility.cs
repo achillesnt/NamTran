@@ -47,7 +47,6 @@ namespace HRM
                 }
             }
         }
-
         //Find windown form control
         public void SearchProcess(Control.ControlCollection owner, DataTable dt)
         {
@@ -85,7 +84,6 @@ namespace HRM
                 }
             }
         }
-
         public static string GetMACAddress()
         {
             NetworkInterface[] nics = NetworkInterface.GetAllNetworkInterfaces();
@@ -221,6 +219,19 @@ namespace HRM
             dr[9] = A09;
             dr[10] = A10;
             dtTarget.Rows.Add(dr);
+            return dtTarget;
+        }
+        public static DataTable CopyProductByName(DataTable dtSource, string productName)
+        {
+            DataRow[] rowsToCopy;
+            DataTable dtTarget = new DataTable();
+            string sQuery = string.Format("product_name LIKE '%" + productName + "%'");
+            dtTarget = dtSource.Clone();
+            rowsToCopy = dtSource.Select(sQuery);
+            foreach (DataRow temp in rowsToCopy)
+            {
+                dtTarget.ImportRow(temp);
+            }
             return dtTarget;
         }
     }

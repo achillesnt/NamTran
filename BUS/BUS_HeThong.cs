@@ -24,12 +24,14 @@ namespace BUS
         {
             return DAO_HeThong.LoadProcessByRole(ad_role_id);
         }
+        public static bool CreateProcess(string name, string description)
+        {
+            return DAO_HeThong.CreateProcess(name, description);
+        }
         public static DataTable LoadRole()
         {
             return DAO_HeThong.LoadRole();
-        }
-
-        
+        }     
         public static DataTable LoadRoleFull()
         {
             return DAO_HeThong.LoadRoleFull();

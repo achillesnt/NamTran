@@ -43,26 +43,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BUS.dll" size="11776">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BUS.dll" size="12800">
       <assemblyIdentity name="BUS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>G2O10HK2XWW/Zdg9+ssaPZydfMoZivs68/8DaW0apPA=</dsig:DigestValue>
+        <dsig:DigestValue>H9yfnb42rKxZyTAgEDUUIoP9oYcHz9rO7GknhtnAp0s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DAO.dll" size="47104">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DAO.dll" size="50688">
       <assemblyIdentity name="DAO" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>LOO3JxiY/RICNMC45MsrpM9LEQ54A0tj/CrQGSBUeh8=</dsig:DigestValue>
+        <dsig:DigestValue>Q6GpnYgd8Bm4jovnh/l8DJasnnw7JpRNOSWG+h6XOF0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1850,19 +1850,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3cFXaNJuO7kcpf+kv3KkzYOkWaDikFRVDPy5D/pX29M=</dsig:DigestValue>
+        <dsig:DigestValue>cEyf/Y+0VnbopJnkQ9rcK0U2ZpMAdHxAM56pMB5Up0M=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HRM.exe" size="1803248">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HRM.exe" size="1855472">
       <assemblyIdentity name="HRM" version="1.0.1.17" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>84J+4eSt5jiYIZLUsKIaIXwUTmpiVxK+wAwp3Ba8YXs=</dsig:DigestValue>
+        <dsig:DigestValue>jCD5oJluq6dOMuZdBk924D8LHpKUbAefHb5pzexr/FI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

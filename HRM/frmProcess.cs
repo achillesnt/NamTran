@@ -119,6 +119,26 @@ namespace HRM
         {
             InitializeComponent();
         }
+
+        private void btnProcessSave_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtName.Text) || string.IsNullOrEmpty(txtDescription.Text))
+            {
+                MessageBox.Show("Vui lòng điền đầy đủ các thông tin cần thiết!", "Không thành công", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                if (BUS_HeThong.CreateProcess(txtName.Text, txtDescription.Text))
+                {
+                    MessageBox.Show("Tạo tác vụ thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Tạo tác vụ không thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
         public frmProcess(string ad_user_id, string ad_org_id, DataTable dtProcess)
         {
             InitializeComponent();

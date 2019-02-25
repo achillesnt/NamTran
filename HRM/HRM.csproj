@@ -155,6 +155,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CheckForUpdate.cs" />
+    <Compile Include="frmCreateProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCreateProduct.Designer.cs">
+      <DependentUpon>frmCreateProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductDetail.Designer.cs">
+      <DependentUpon>frmProductDetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmActive.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -190,6 +202,18 @@
     </Compile>
     <Compile Include="frmProcess.Designer.cs">
       <DependentUpon>frmProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductEdit.Designer.cs">
+      <DependentUpon>frmProductEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductList.Designer.cs">
+      <DependentUpon>frmProductList.cs</DependentUpon>
     </Compile>
     <Compile Include="frmQtyReport.cs">
       <SubType>Form</SubType>
@@ -329,6 +353,9 @@
     <EmbeddedResource Include="frmBaoCom.resx">
       <DependentUpon>frmBaoCom.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmCreateProduct.resx">
+      <DependentUpon>frmCreateProduct.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmHistory.resx">
       <DependentUpon>frmHistory.cs</DependentUpon>
     </EmbeddedResource>
@@ -337,6 +364,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmProcess.resx">
       <DependentUpon>frmProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductDetail.resx">
+      <DependentUpon>frmProductDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductEdit.resx">
+      <DependentUpon>frmProductEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductList.resx">
+      <DependentUpon>frmProductList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmQtyReport.resx">
       <DependentUpon>frmQtyReport.cs</DependentUpon>

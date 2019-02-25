@@ -52,8 +52,8 @@ namespace HRM
             this.label2 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.btnRoleNew = new DevExpress.XtraEditors.SimpleButton();
-            this.btnRoleSave = new DevExpress.XtraEditors.SimpleButton();
             this.txtDescription = new System.Windows.Forms.TextBox();
+            this.btnRoleCreate = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.gridSplitContainer1)).BeginInit();
             this.gridSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
@@ -256,8 +256,8 @@ namespace HRM
             this.tableLayoutPanel4.Controls.Add(this.label2, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.txtName, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.btnRoleNew, 0, 2);
-            this.tableLayoutPanel4.Controls.Add(this.btnRoleSave, 1, 2);
             this.tableLayoutPanel4.Controls.Add(this.txtDescription, 1, 1);
+            this.tableLayoutPanel4.Controls.Add(this.btnRoleCreate, 1, 2);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(2, 20);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
@@ -308,16 +308,6 @@ namespace HRM
             this.btnRoleNew.TabIndex = 6;
             this.btnRoleNew.Text = "New";
             // 
-            // btnRoleSave
-            // 
-            this.btnRoleSave.Image = ((System.Drawing.Image)(resources.GetObject("btnRoleSave.Image")));
-            this.btnRoleSave.Location = new System.Drawing.Point(98, 63);
-            this.btnRoleSave.Name = "btnRoleSave";
-            this.btnRoleSave.Size = new System.Drawing.Size(75, 23);
-            this.btnRoleSave.TabIndex = 7;
-            this.btnRoleSave.Text = "Save";
-            this.btnRoleSave.Click += new System.EventHandler(this.btnRoleSave_Click);
-            // 
             // txtDescription
             // 
             this.txtDescription.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -325,6 +315,16 @@ namespace HRM
             this.txtDescription.Name = "txtDescription";
             this.txtDescription.Size = new System.Drawing.Size(89, 21);
             this.txtDescription.TabIndex = 8;
+            // 
+            // btnRoleCreate
+            // 
+            this.btnRoleCreate.Image = ((System.Drawing.Image)(resources.GetObject("btnRoleCreate.Image")));
+            this.btnRoleCreate.Location = new System.Drawing.Point(98, 63);
+            this.btnRoleCreate.Name = "btnRoleCreate";
+            this.btnRoleCreate.Size = new System.Drawing.Size(75, 23);
+            this.btnRoleCreate.TabIndex = 9;
+            this.btnRoleCreate.Text = "Save";
+            this.btnRoleCreate.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // frmRole
             // 
@@ -374,7 +374,6 @@ namespace HRM
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtName;
         private SimpleButton btnRoleNew;
-        private SimpleButton btnRoleSave;
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit1;
         private DevExpress.XtraEditors.Repository.RepositoryItemTextEdit repositoryItemTextEdit1;
         private System.Windows.Forms.TextBox txtDescription;
@@ -382,5 +381,6 @@ namespace HRM
         private DevExpress.XtraGrid.Columns.GridColumn name;
         private DevExpress.XtraGrid.Columns.GridColumn description;
         private DevExpress.XtraGrid.Columns.GridColumn isactive;
+        private SimpleButton btnRoleCreate;
     }
 }

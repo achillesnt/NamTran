@@ -63,6 +63,7 @@
     <Compile Include="DAO_SanXuat.cs" />
     <Compile Include="DAO_TangCa.cs" />
     <Compile Include="DAO_TinhTrang.cs" />
+    <Compile Include="DAO_Warehouse.cs" />
     <Compile Include="DataProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
