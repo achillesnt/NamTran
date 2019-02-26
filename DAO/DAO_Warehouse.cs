@@ -125,5 +125,45 @@ namespace DAO
             cmd.Connection.Close();
             cmd.Dispose();
         }
+        public static string UpdateAccessories(DataTable dt, string i_variable)
+        {
+            string sKetQua = null;
+            SqlConnection con = new SqlConnection(DataProvider.sChuoiKetNoi);
+            SqlCommand cmd = con.CreateCommand();
+            cmd.Connection.Open();
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                cmd.CommandText = string.Format("UPDATE {0} SET {0}_name = N'{1}', {0}_description = N'{2}' WHERE {0}_id = '{3}'", i_variable, dt.Rows[i]["name"].ToString(), dt.Rows[i]["description"].ToString(), dt.Rows[i]["id"].ToString());
+                if (cmd.ExecuteNonQuery() > 0)
+                {
+                    sKetQua = null;
+                }
+                else
+                {
+                    sKetQua += dt.Rows[i]["id"].ToString();
+                }
+            }
+
+            return sKetQua;
+            cmd.Connection.Close();
+            cmd.Dispose();
+        }
+        public static bool CreateAccessories(string name, string description, string i_variable)
+        {
+            SqlConnection con = new SqlConnection(DataProvider.sChuoiKetNoi);
+            SqlCommand cmd = con.CreateCommand();
+            cmd.Connection.Open();
+            cmd.CommandText = string.Format("INSERT INTO {0} ({0}_name, {0}_description) VALUES(N'{1}',N'{2}')", i_variable, name, description);
+            if (cmd.ExecuteNonQuery() > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+            cmd.Connection.Close();
+            cmd.Dispose();
+        }
     }
 }

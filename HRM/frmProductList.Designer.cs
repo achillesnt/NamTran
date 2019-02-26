@@ -83,6 +83,7 @@ namespace HRM
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.txtTrangThai = new System.Windows.Forms.Label();
             this.txtTimKiem = new DevExpress.XtraEditors.TextEdit();
+            this.label11 = new System.Windows.Forms.Label();
             this.splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::HRM.WaitForm1), true, true);
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
@@ -591,19 +592,21 @@ namespace HRM
             // 
             // tableLayoutPanel9
             // 
-            this.tableLayoutPanel9.ColumnCount = 6;
+            this.tableLayoutPanel9.ColumnCount = 7;
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
             this.tableLayoutPanel9.Controls.Add(this.btnProductListAdd, 0, 0);
             this.tableLayoutPanel9.Controls.Add(this.btnProductListEdit, 1, 0);
             this.tableLayoutPanel9.Controls.Add(this.Export, 2, 0);
-            this.tableLayoutPanel9.Controls.Add(this.simpleButton1, 5, 0);
+            this.tableLayoutPanel9.Controls.Add(this.simpleButton1, 6, 0);
             this.tableLayoutPanel9.Controls.Add(this.txtTrangThai, 3, 0);
-            this.tableLayoutPanel9.Controls.Add(this.txtTimKiem, 4, 0);
+            this.tableLayoutPanel9.Controls.Add(this.txtTimKiem, 5, 0);
+            this.tableLayoutPanel9.Controls.Add(this.label11, 4, 0);
             this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel9.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel9.Name = "tableLayoutPanel9";
@@ -621,6 +624,7 @@ namespace HRM
             this.btnProductListAdd.Size = new System.Drawing.Size(69, 23);
             this.btnProductListAdd.TabIndex = 5;
             this.btnProductListAdd.Text = "Thêm";
+            this.btnProductListAdd.ToolTip = "Tạo mới";
             this.btnProductListAdd.Click += new System.EventHandler(this.btnProductListAdd_Click);
             // 
             // btnProductListEdit
@@ -632,6 +636,7 @@ namespace HRM
             this.btnProductListEdit.Size = new System.Drawing.Size(69, 23);
             this.btnProductListEdit.TabIndex = 6;
             this.btnProductListEdit.Text = "Sửa";
+            this.btnProductListEdit.ToolTip = "Sửa thông tin vật tư";
             this.btnProductListEdit.Click += new System.EventHandler(this.btnProductListEdit_Click);
             // 
             // Export
@@ -647,8 +652,9 @@ namespace HRM
             // 
             // simpleButton1
             // 
+            this.simpleButton1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.simpleButton1.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.Image")));
-            this.simpleButton1.Location = new System.Drawing.Point(759, 3);
+            this.simpleButton1.Location = new System.Drawing.Point(759, 4);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(69, 23);
             this.simpleButton1.TabIndex = 8;
@@ -670,12 +676,23 @@ namespace HRM
             // 
             // txtTimKiem
             // 
-            this.txtTimKiem.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtTimKiem.Location = new System.Drawing.Point(609, 3);
+            this.txtTimKiem.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtTimKiem.Location = new System.Drawing.Point(609, 6);
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(144, 20);
             this.txtTimKiem.TabIndex = 10;
             this.txtTimKiem.ToolTip = "Nhập tên vật tư cần tìm";
+            // 
+            // label11
+            // 
+            this.label11.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Constantia", 9.75F);
+            this.label11.Location = new System.Drawing.Point(551, 8);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(52, 15);
+            this.label11.TabIndex = 1;
+            this.label11.Text = "Tên VT:";
             // 
             // splashScreenManager1
             // 
@@ -766,5 +783,6 @@ namespace HRM
         private System.Windows.Forms.Label txtTrangThai;
         private TextEdit txtTimKiem;
         private DevExpress.XtraSplashScreen.SplashScreenManager splashScreenManager1;
+        private System.Windows.Forms.Label label11;
     }
 }

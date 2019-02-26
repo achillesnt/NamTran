@@ -49,15 +49,24 @@
             this.txtViTri = new System.Windows.Forms.TextBox();
             this.checkEdit = new DevExpress.XtraEditors.CheckEdit();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtTonKho = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtGhiChu = new System.Windows.Forms.TextBox();
             this.btnProductCreateClose = new DevExpress.XtraEditors.DropDownButton();
             this.btnProductCreateSave = new DevExpress.XtraEditors.DropDownButton();
+            this.txtTonKho = new DevExpress.XtraEditors.TextEdit();
+            this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit2 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit3 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit4 = new DevExpress.XtraEditors.PictureEdit();
             ((System.ComponentModel.ISupportInitialize)(this.lkeNhomVT.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lkeKho.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lkeDonVi.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTonKho.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // maNVLabel
@@ -153,7 +162,7 @@
             this.lkeNhomVT.Name = "lkeNhomVT";
             this.lkeNhomVT.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lkeNhomVT.Size = new System.Drawing.Size(138, 20);
+            this.lkeNhomVT.Size = new System.Drawing.Size(123, 20);
             this.lkeNhomVT.TabIndex = 7;
             // 
             // label6
@@ -191,7 +200,7 @@
             this.lkeKho.Name = "lkeKho";
             this.lkeKho.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lkeKho.Size = new System.Drawing.Size(138, 20);
+            this.lkeKho.Size = new System.Drawing.Size(123, 20);
             this.lkeKho.TabIndex = 8;
             // 
             // lkeDonVi
@@ -200,7 +209,7 @@
             this.lkeDonVi.Name = "lkeDonVi";
             this.lkeDonVi.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lkeDonVi.Size = new System.Drawing.Size(100, 20);
+            this.lkeDonVi.Size = new System.Drawing.Size(68, 20);
             this.lkeDonVi.TabIndex = 9;
             // 
             // label8
@@ -219,7 +228,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(42, 184);
+            this.label9.Location = new System.Drawing.Point(57, 186);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(42, 15);
             this.label9.TabIndex = 98;
@@ -250,13 +259,6 @@
             this.label1.Size = new System.Drawing.Size(62, 15);
             this.label1.TabIndex = 98;
             this.label1.Text = "Tồn T.Th:";
-            // 
-            // txtTonKho
-            // 
-            this.txtTonKho.Location = new System.Drawing.Point(331, 282);
-            this.txtTonKho.Name = "txtTonKho";
-            this.txtTonKho.Size = new System.Drawing.Size(99, 21);
-            this.txtTonKho.TabIndex = 10;
             // 
             // label3
             // 
@@ -298,6 +300,59 @@
             this.btnProductCreateSave.ToolTip = "Lưu lại thông tin vừa nhập";
             this.btnProductCreateSave.Click += new System.EventHandler(this.btnProductCreateSave_Click);
             // 
+            // txtTonKho
+            // 
+            this.txtTonKho.Location = new System.Drawing.Point(331, 282);
+            this.txtTonKho.Name = "txtTonKho";
+            this.txtTonKho.Properties.Mask.EditMask = "d";
+            this.txtTonKho.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
+            this.txtTonKho.Size = new System.Drawing.Size(68, 20);
+            this.txtTonKho.TabIndex = 123;
+            // 
+            // pictureEdit1
+            // 
+            this.pictureEdit1.EditValue = ((object)(resources.GetObject("pictureEdit1.EditValue")));
+            this.pictureEdit1.Location = new System.Drawing.Point(235, 256);
+            this.pictureEdit1.Name = "pictureEdit1";
+            this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit1.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit1.Size = new System.Drawing.Size(20, 20);
+            this.pictureEdit1.TabIndex = 124;
+            this.pictureEdit1.Click += new System.EventHandler(this.pictureEdit1_Click);
+            // 
+            // pictureEdit2
+            // 
+            this.pictureEdit2.EditValue = ((object)(resources.GetObject("pictureEdit2.EditValue")));
+            this.pictureEdit2.Location = new System.Drawing.Point(235, 282);
+            this.pictureEdit2.Name = "pictureEdit2";
+            this.pictureEdit2.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit2.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit2.Size = new System.Drawing.Size(20, 20);
+            this.pictureEdit2.TabIndex = 124;
+            this.pictureEdit2.Click += new System.EventHandler(this.pictureEdit2_Click);
+            // 
+            // pictureEdit3
+            // 
+            this.pictureEdit3.EditValue = ((object)(resources.GetObject("pictureEdit3.EditValue")));
+            this.pictureEdit3.Location = new System.Drawing.Point(405, 256);
+            this.pictureEdit3.Name = "pictureEdit3";
+            this.pictureEdit3.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit3.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit3.Size = new System.Drawing.Size(20, 20);
+            this.pictureEdit3.TabIndex = 124;
+            this.pictureEdit3.Click += new System.EventHandler(this.pictureEdit3_Click);
+            // 
+            // pictureEdit4
+            // 
+            this.pictureEdit4.EditValue = ((object)(resources.GetObject("pictureEdit4.EditValue")));
+            this.pictureEdit4.Enabled = false;
+            this.pictureEdit4.Location = new System.Drawing.Point(405, 282);
+            this.pictureEdit4.Name = "pictureEdit4";
+            this.pictureEdit4.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit4.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit4.Size = new System.Drawing.Size(20, 20);
+            this.pictureEdit4.TabIndex = 124;
+            // 
             // frmCreateProduct
             // 
             this.Appearance.ForeColor = System.Drawing.Color.Black;
@@ -305,11 +360,15 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(462, 377);
+            this.Controls.Add(this.pictureEdit4);
+            this.Controls.Add(this.pictureEdit2);
+            this.Controls.Add(this.pictureEdit3);
+            this.Controls.Add(this.pictureEdit1);
+            this.Controls.Add(this.txtTonKho);
             this.Controls.Add(this.checkEdit);
             this.Controls.Add(this.lkeKho);
             this.Controls.Add(this.lkeDonVi);
             this.Controls.Add(this.lkeNhomVT);
-            this.Controls.Add(this.txtTonKho);
             this.Controls.Add(this.txtGhiChu);
             this.Controls.Add(this.txtViTri);
             this.Controls.Add(this.txtMoTa);
@@ -340,6 +399,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.lkeKho.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lkeDonVi.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTonKho.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -368,8 +432,12 @@
         private System.Windows.Forms.TextBox txtViTri;
         private DevExpress.XtraEditors.CheckEdit checkEdit;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtTonKho;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtGhiChu;
+        private DevExpress.XtraEditors.TextEdit txtTonKho;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit1;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit2;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit3;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit4;
     }
 }

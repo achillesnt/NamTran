@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             DevExpress.XtraSplashScreen.SplashScreenManager splashScreenManager2 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::HRM.SplashScreen1), true, true, true);
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::HRM.WaitForm1), true, true, true);
@@ -86,8 +87,8 @@
             this.pageSanXuat = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
-            this.timer1 = new System.Windows.Forms.Timer();
-            this.alertControl1 = new DevExpress.XtraBars.Alerter.AlertControl();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.alertControl1 = new DevExpress.XtraBars.Alerter.AlertControl(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -516,7 +517,7 @@
             this.ribbonPageGroup5.ItemLinks.Add(this.barTypename);
             this.ribbonPageGroup5.ItemLinks.Add(this.barPartname);
             this.ribbonPageGroup5.Name = "ribbonPageGroup5";
-            this.ribbonPageGroup5.Text = "Sản xuất";
+            this.ribbonPageGroup5.Text = "Quản lý hàng hóa";
             // 
             // ribbonPageGroup6
             // 

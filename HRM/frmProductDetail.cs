@@ -23,6 +23,7 @@ namespace HRM
         private void frmProductDetail_Load(object sender, EventArgs e)
         {
             gridPrice.DataSource = dtPrices;
+            dateEdit.EditValue = DateTime.Now.Date;
         }
 
         private void gridView2_DoubleClick(object sender, EventArgs e)

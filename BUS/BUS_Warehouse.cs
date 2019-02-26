@@ -47,5 +47,13 @@ namespace BUS
         {
             return DAO_Warehouse.CreateProduct(txtMaVT, txtName, txtGhiChu, txtMoTa, txtTonKho, txtViTri, category, unit, warehouse);
         }
+        public static string UpdateAccessories(DataTable dt, string i_variable)
+        {
+            return DAO_Warehouse.UpdateAccessories(dt, i_variable);
+        }
+        public static bool CreateAccessories(string name, string description, string i_variable)
+        {
+            return DAO_Warehouse.CreateAccessories(name, description, i_variable);
+        }
     }
 }

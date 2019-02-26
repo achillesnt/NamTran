@@ -38,6 +38,24 @@ namespace HRM
             this.Close();
         }
 
+        private void pictureEdit1_Click(object sender, EventArgs e)
+        {
+            frmProductAccessories productAcc = new frmProductAccessories("category");
+            productAcc.ShowDialog();
+        }
+
+        private void pictureEdit2_Click(object sender, EventArgs e)
+        {
+            frmProductAccessories productAcc = new frmProductAccessories("warehouse");
+            productAcc.ShowDialog();
+        }
+
+        private void pictureEdit3_Click(object sender, EventArgs e)
+        {
+            frmProductAccessories productAcc = new frmProductAccessories("unit");
+            productAcc.ShowDialog();
+        }
+
         DataTable dtUnit = new DataTable();
         DataTable dtCategory = new DataTable();
         DataTable dtWarehouse = new DataTable();
