@@ -76,8 +76,9 @@ namespace HRM
             FileVersionInfo fileVersionInfor = FileVersionInfo.GetVersionInfo(assembly.Location);
             string version = fileVersionInfor.ProductVersion;
             barVersion.Caption = "Version " + version;
-            XtraTabbedMdiManager mdiManager = new XtraTabbedMdiManager();
-            mdiManager.MdiParent = this;
+            //XtraTabbedMdiManager mdiManager = new XtraTabbedMdiManager();
+            //mdiManager.MdiParent = this;
+            //mdiManager.ClosePageButtonShowMode = DevExpress.XtraTab.ClosePageButtonShowMode.InAllTabPageHeaders;
 
             /*
             maBoPhan = dt.Rows[0]["dept_id"].ToString();

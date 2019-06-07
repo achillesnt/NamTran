@@ -51,6 +51,7 @@ namespace HRM
             this.gridView = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.deptname = new DevExpress.XtraGrid.Columns.GridColumn();
             this.typename = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.partname = new DevExpress.XtraGrid.Columns.GridColumn();
             this.documentdate = new DevExpress.XtraGrid.Columns.GridColumn();
             this.inputname = new DevExpress.XtraGrid.Columns.GridColumn();
             this.headcount_target = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -71,7 +72,6 @@ namespace HRM
             this.btnSave = new DevExpress.XtraEditors.SimpleButton();
             this.lkTypename = new DevExpress.XtraEditors.LookUpEdit();
             this.splashScreenManager2 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::HRM.WaitForm1), true, true);
-            this.partname = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.gridSplitContainer1)).BeginInit();
             this.gridSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
@@ -121,6 +121,7 @@ namespace HRM
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 0, 0);
@@ -314,6 +315,14 @@ namespace HRM
             this.typename.Visible = true;
             this.typename.VisibleIndex = 1;
             // 
+            // partname
+            // 
+            this.partname.Caption = "Partname";
+            this.partname.FieldName = "partname";
+            this.partname.Name = "partname";
+            this.partname.Visible = true;
+            this.partname.VisibleIndex = 2;
+            // 
             // documentdate
             // 
             this.documentdate.Caption = "Ngày nhập";
@@ -493,14 +502,6 @@ namespace HRM
             // splashScreenManager2
             // 
             this.splashScreenManager2.ClosingDelay = 500;
-            // 
-            // partname
-            // 
-            this.partname.Caption = "Partname";
-            this.partname.FieldName = "partname";
-            this.partname.Name = "partname";
-            this.partname.Visible = true;
-            this.partname.VisibleIndex = 2;
             // 
             // frmQLSanLuong
             // 

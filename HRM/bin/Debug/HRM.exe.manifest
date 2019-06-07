@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>nvAxxmiQtK7NxBtCjE9AyngYZcFsHtz2Q3xfdVwsgZY=</dsig:DigestValue>
+        <dsig:DigestValue>hahKxUPLezhCskMwkKkSoj9fEchniXKFjNBMFG0jbks=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>lzR4qF/7gwj0h06TdnrpsHNGlWOLXVH/Ub8P2uKPV/c=</dsig:DigestValue>
+        <dsig:DigestValue>JgHtem05QqGIoM6+mqcmIabcYE/aax30SiE111vqHag=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1850,19 +1850,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>5aG9GGdNQn2H1ljNhCV/p0S0H8D890F3Dv1yKzbOsWA=</dsig:DigestValue>
+        <dsig:DigestValue>0rFo7iBnmo1tf8pDY28aF/JNmh9qLT2TJO9gv45hFD4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HRM.exe" size="1876976">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HRM.exe" size="1786352">
       <assemblyIdentity name="HRM" version="1.0.1.17" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>is05NYbDolYywViyggC19WjYF1YJCmi032LHYC76a10=</dsig:DigestValue>
+        <dsig:DigestValue>AOZBBGb82auXBkT0R1OA+k4Fq7QBD7+LWmCavX3ZifY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             DevExpress.XtraGrid.GridFormatRule gridFormatRule1 = new DevExpress.XtraGrid.GridFormatRule();
             DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue1 = new DevExpress.XtraEditors.FormatConditionRuleValue();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDiemDanh));
@@ -76,7 +75,7 @@
             this.btnAttCountSubmit = new DevExpress.XtraEditors.SimpleButton();
             this.btnAddCountUpdate = new DevExpress.XtraEditors.SimpleButton();
             this.btnAddCountDelete = new DevExpress.XtraEditors.SimpleButton();
-            this.alertControl1 = new DevExpress.XtraBars.Alerter.AlertControl(this.components);
+            this.alertControl1 = new DevExpress.XtraBars.Alerter.AlertControl();
             this.splashScreenManager5 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::HRM.WaitForm1), true, true);
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemLookUpEdit1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
@@ -360,11 +359,11 @@
             this.tableLayoutPanel3.Controls.Add(this.groupBox1, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.groupBox3, 2, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(2, 20);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(2, 22);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(779, 122);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(779, 120);
             this.tableLayoutPanel3.TabIndex = 1;
             // 
             // groupBox2
@@ -373,7 +372,7 @@
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Location = new System.Drawing.Point(253, 3);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(214, 116);
+            this.groupBox2.Size = new System.Drawing.Size(214, 114);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông tin cơ sở";
@@ -394,7 +393,7 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(208, 96);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(208, 94);
             this.tableLayoutPanel4.TabIndex = 3;
             // 
             // lkBoPhan
@@ -410,7 +409,7 @@
             // lkShift
             // 
             this.lkShift.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lkShift.Location = new System.Drawing.Point(83, 51);
+            this.lkShift.Location = new System.Drawing.Point(83, 50);
             this.lkShift.Name = "lkShift";
             this.lkShift.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -431,7 +430,7 @@
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 48);
+            this.label3.Location = new System.Drawing.Point(12, 47);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(65, 13);
             this.label3.TabIndex = 7;
@@ -443,7 +442,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(3, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(244, 116);
+            this.groupBox1.Size = new System.Drawing.Size(244, 114);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Loại công việc";
@@ -453,14 +452,14 @@
             this.radioGroup.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radioGroup.Location = new System.Drawing.Point(3, 17);
             this.radioGroup.Name = "radioGroup";
-            this.radioGroup.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(236)))), ((int)(((byte)(239)))));
+            this.radioGroup.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.radioGroup.Properties.Appearance.Options.UseBackColor = true;
             this.radioGroup.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.radioGroup.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
             new DevExpress.XtraEditors.Controls.RadioGroupItem(((short)(0)), "Thực hiện điểm danh"),
             new DevExpress.XtraEditors.Controls.RadioGroupItem(((short)(1)), "Xem danh sách đã điểm danh"),
             new DevExpress.XtraEditors.Controls.RadioGroupItem(((short)(2)), "Xem danh sách hôm nay chưa điểm danh")});
-            this.radioGroup.Size = new System.Drawing.Size(238, 96);
+            this.radioGroup.Size = new System.Drawing.Size(238, 94);
             this.radioGroup.TabIndex = 0;
             this.radioGroup.SelectedIndexChanged += new System.EventHandler(this.radioGroup_SelectedIndexChanged);
             // 
@@ -470,7 +469,7 @@
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox3.Location = new System.Drawing.Point(473, 3);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(214, 116);
+            this.groupBox3.Size = new System.Drawing.Size(214, 114);
             this.groupBox3.TabIndex = 5;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Khoản thời gian";
@@ -490,7 +489,7 @@
             this.tableLayoutPanel5.RowCount = 2;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(208, 96);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(208, 94);
             this.tableLayoutPanel5.TabIndex = 0;
             // 
             // dateEdit
@@ -521,7 +520,7 @@
             // 
             this.dateEdit1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dateEdit1.EditValue = null;
-            this.dateEdit1.Location = new System.Drawing.Point(83, 51);
+            this.dateEdit1.Location = new System.Drawing.Point(83, 50);
             this.dateEdit1.Name = "dateEdit1";
             this.dateEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -534,7 +533,7 @@
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(19, 48);
+            this.label4.Location = new System.Drawing.Point(19, 47);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 13);
             this.label4.TabIndex = 10;

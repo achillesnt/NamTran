@@ -148,11 +148,11 @@
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel7, 1, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(2, 20);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(2, 22);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(829, 217);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(829, 215);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // tableLayoutPanel3
@@ -169,7 +169,7 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.23077F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 48.07692F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 32.69231F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(698, 211);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(698, 209);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
             // tableLayoutPanel4
@@ -208,7 +208,7 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(692, 95);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(692, 94);
             this.tableLayoutPanel4.TabIndex = 0;
             // 
             // label1
@@ -243,7 +243,7 @@
             this.label3.Font = new System.Drawing.Font("Constantia", 9.75F);
             this.label3.Location = new System.Drawing.Point(31, 62);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 33);
+            this.label3.Size = new System.Drawing.Size(57, 32);
             this.label3.TabIndex = 0;
             this.label3.Text = "Chức vụ:";
             // 
@@ -279,7 +279,7 @@
             this.label6.Font = new System.Drawing.Font("Constantia", 9.75F);
             this.label6.Location = new System.Drawing.Point(249, 62);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(68, 33);
+            this.label6.Size = new System.Drawing.Size(68, 32);
             this.label6.TabIndex = 1;
             this.label6.Text = "Điện thoại";
             // 
@@ -315,7 +315,7 @@
             this.label9.Font = new System.Drawing.Font("Constantia", 9.75F);
             this.label9.Location = new System.Drawing.Point(477, 62);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(69, 33);
+            this.label9.Size = new System.Drawing.Size(69, 32);
             this.label9.TabIndex = 4;
             this.label9.Text = "Ngày nghỉ việc:";
             // 
@@ -410,12 +410,12 @@
             this.tableLayoutPanel5.Controls.Add(this.txtHokhau, 1, 0);
             this.tableLayoutPanel5.Controls.Add(this.txtQuequan, 1, 1);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 144);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 143);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 2;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(692, 64);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(692, 63);
             this.tableLayoutPanel5.TabIndex = 1;
             // 
             // label10
@@ -426,7 +426,7 @@
             this.label10.Font = new System.Drawing.Font("Constantia", 9.75F);
             this.label10.Location = new System.Drawing.Point(43, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(45, 32);
+            this.label10.Size = new System.Drawing.Size(45, 31);
             this.label10.TabIndex = 0;
             this.label10.Text = "HKTT:";
             // 
@@ -436,7 +436,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Constantia", 9.75F);
-            this.label11.Location = new System.Drawing.Point(24, 32);
+            this.label11.Location = new System.Drawing.Point(24, 31);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(64, 32);
             this.label11.TabIndex = 1;
@@ -455,7 +455,7 @@
             // 
             this.txtQuequan.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtQuequan.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtQuequan.Location = new System.Drawing.Point(94, 35);
+            this.txtQuequan.Location = new System.Drawing.Point(94, 34);
             this.txtQuequan.Name = "txtQuequan";
             this.txtQuequan.Size = new System.Drawing.Size(595, 22);
             this.txtQuequan.TabIndex = 3;
@@ -499,7 +499,7 @@
             this.tableLayoutPanel7.RowCount = 2;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(119, 211);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(119, 209);
             this.tableLayoutPanel7.TabIndex = 1;
             // 
             // groupControl1
@@ -508,16 +508,16 @@
             this.groupControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl1.Location = new System.Drawing.Point(3, 3);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(113, 162);
+            this.groupControl1.Size = new System.Drawing.Size(113, 161);
             this.groupControl1.TabIndex = 0;
             this.groupControl1.Text = "Hình thẻ (3x4)";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 20);
+            this.pictureBox1.Location = new System.Drawing.Point(2, 22);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(109, 140);
+            this.pictureBox1.Size = new System.Drawing.Size(109, 137);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -529,12 +529,12 @@
             this.tableLayoutPanel8.Controls.Add(this.simpleButton1, 0, 0);
             this.tableLayoutPanel8.Controls.Add(this.simpleButton2, 1, 0);
             this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 171);
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 170);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
             this.tableLayoutPanel8.RowCount = 1;
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(113, 37);
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(113, 36);
             this.tableLayoutPanel8.TabIndex = 1;
             // 
             // simpleButton1
@@ -542,7 +542,7 @@
             this.simpleButton1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.simpleButton1.Location = new System.Drawing.Point(3, 3);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(50, 31);
+            this.simpleButton1.Size = new System.Drawing.Size(50, 30);
             this.simpleButton1.TabIndex = 0;
             this.simpleButton1.Text = "Change";
             // 
@@ -551,7 +551,7 @@
             this.simpleButton2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.simpleButton2.Location = new System.Drawing.Point(59, 3);
             this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(51, 31);
+            this.simpleButton2.Size = new System.Drawing.Size(51, 30);
             this.simpleButton2.TabIndex = 1;
             this.simpleButton2.Text = "Save";
             // 
@@ -583,9 +583,9 @@
             // treeView
             // 
             this.treeView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.treeView.Location = new System.Drawing.Point(2, 20);
+            this.treeView.Location = new System.Drawing.Point(2, 22);
             this.treeView.Name = "treeView";
-            this.treeView.Size = new System.Drawing.Size(190, 294);
+            this.treeView.Size = new System.Drawing.Size(190, 292);
             this.treeView.TabIndex = 0;
             this.treeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView_AfterSelect);
             // 
